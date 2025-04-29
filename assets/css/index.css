@@ -1,5 +1,11 @@
+body{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
 header{
     text-align: center;
+    position: relative;
 }
 
 .logo{
@@ -7,4 +13,68 @@ header{
    border: 3px solid black;
    padding: 7px 60px;
    margin-bottom: 60px;
+}
+
+.estilo{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10em;
+}
+
+.imagen1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.medio{
+    text-align: center;
+}
+
+.titulo1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.compra{
+    margin-top: 15px;
+    display: inline-block;
+    border: 3px solid orange;
+    background-color: orange;
+    padding: 7px 60px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.imagen2{
+    position: relative;
+    width: 100%;
+}
+
+.nuevo{
+    position: absolute;
+    top: 120%;
+    left: 54%;
+    color: white;
+    font-size: 4em;
+}
+
+.parrafo{
+    position: absolute;
+    top: 130%;
+    left: 55%;
+}
+
+.compra2{
+    position: absolute;
+    top: 140%;
+    left: 59%;
+    font-size: 2em;
+    display: inline-block;
+    border: 3px solid black;
+    padding: 10px 60px;
+    background-color: black;
+    color: white;
 }
