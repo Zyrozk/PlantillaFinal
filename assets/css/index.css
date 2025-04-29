@@ -1,6 +1,7 @@
 body{
     margin-left: 0%;
     margin-right: 0%;
+    font-family: Arial;
 }
 
 header{
@@ -77,4 +78,16 @@ header{
     padding: 10px 60px;
     background-color: black;
     color: white;
+}
+
+footer{
+    text-align: center;
+}
+
+.titulo2{
+    margin-top: 80px;
+}
+
+.imagen3{
+    width: 20%;
 }
